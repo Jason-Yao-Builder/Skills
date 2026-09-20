@@ -11,7 +11,7 @@
 | [anysearch](anysearch/SKILL.md) | 网页、垂直领域、批量搜索及正文抓取 | 第三方本地适配版；CLI 与 API 服务，非 MCP；保留上游许可证 |
 | [wechat-digest](wechat-digest/SKILL.md) | 微信群阅读规则、日报配置与前端 | 仅公开规则/配置/前端；外部读取执行器未包含，不能开箱即用 |
 
-已发布的 [history-strategy-game](https://github.com/Jason-Yao-Builder/Jason-Yao-Builder/blob/main/games/history-strategy-game/SKILL.md) 继续位于个人主页仓库的 `games/`。独立的 [universal-research-mcp](https://github.com/Jason-Yao-Builder/universal-research-mcp) 仓库提供 Research MCP 源码。
+已发布的 [history-strategy-game](https://github.com/Jason-Yao-Builder/Games/blob/main/history-strategy-game/SKILL.md) 现位于独立的 [Games 仓库](https://github.com/Jason-Yao-Builder/Games)。独立的 [universal-research-mcp](https://github.com/Jason-Yao-Builder/universal-research-mcp) 仓库提供 Research MCP 源码。
 
 ## 获取与安装
 
