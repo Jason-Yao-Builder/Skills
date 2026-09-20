@@ -1,0 +1,24 @@
+{
+  "groups": [
+    {
+      "id": "example-group@chatroom",
+      "alias": "示例活动群",
+      "tags": [
+        "学习"
+      ]
+    }
+  ],
+  "handling_overrides": [
+    {
+      "id": "example-excluded@chatroom",
+      "name": "虚构排除群",
+      "mode": "exclude",
+      "reason": "示例：不参与此类活动"
+    },
+    {
+      "id": "example-compact@chatroom",
+      "name": "虚构精简群",
+      "mode": "compact"
+    }
+  ]
+}

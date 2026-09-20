@@ -1,0 +1,74 @@
+{
+  "version": 1,
+  "timezone": "Asia/Shanghai",
+  "retention_days": 30,
+  "source": {
+    "mode": "live_snapshot",
+    "account_db_root": "",
+    "account_root": "",
+    "snapshot_db_root": ""
+  },
+  "secrets": {
+    "mode": "mounted",
+    "image_path": "",
+    "key_filename": "",
+    "image_key_filename": ""
+  },
+  "model": {
+    "backend": "codex",
+    "model": null,
+    "timeout_seconds": 300
+  },
+  "server": {
+    "host": "127.0.0.1",
+    "port": 8766
+  },
+  "schedule": {
+    "enabled": false
+  },
+  "output_root": "",
+  "presentation": {
+    "categories": [
+      "休闲社交",
+      "行业技术",
+      "学习实践",
+      "求职职业",
+      "其他"
+    ],
+    "default_filters": {
+      "kind": "all",
+      "participation": "all",
+      "fee": "all",
+      "search": "",
+      "category": "",
+      "region": "",
+      "rules": {
+        "category": {
+          "include": [],
+          "exclude": []
+        },
+        "tag": {
+          "include": [],
+          "exclude": []
+        },
+        "region": {
+          "include": [],
+          "exclude": []
+        },
+        "source": {
+          "include": [],
+          "exclude": []
+        },
+        "group_tag": {
+          "include": [],
+          "exclude": []
+        },
+        "text": {
+          "include": [],
+          "exclude": []
+        }
+      }
+    },
+    "location_keywords": []
+  }
+}

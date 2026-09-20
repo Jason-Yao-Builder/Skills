@@ -1,0 +1,19 @@
+AnySearch Skill
+Copyright 2026 AnySearch
+
+Licensed under the Apache License, Version 2.0.
+
+This distribution preserves the upstream AnySearch license and notice.
+Packaged from a locally adapted installation by Jason-Yao-Builder on 2026-09-20.
+Upstream: https://github.com/anysearch-ai/anysearch-skill
+Local runtime configuration and credentials are not included.
+Packaging changes: credential/runtime files omitted; skill metadata normalized for Codex.
+
+The bundled snapshot differs from upstream main as checked on 2026-09-20 in:
+README.md, SKILL.md, .env.example, .gitignore, scripts/anysearch_cli.py,
+scripts/anysearch_cli.js, scripts/anysearch_cli.ps1, scripts/anysearch_cli.sh,
+scripts/generate.py, scripts/shared/constants.json, scripts/shared/doc_spec.md.
+Those differences may include upstream version drift as well as local adaptations;
+the complete modification history of the original local installation is unavailable.
+Publication edits additionally clarify this snapshot's installation source and runtime
+dependencies; executable behavior of the CLI was not changed during publication.
